@@ -52,6 +52,7 @@ body {
 
 h3, h4, .description {
     color: var(--color);
+    font-family: var(--font-family);
 }
 
 h3 {
@@ -60,6 +61,10 @@ h3 {
     font-size: 48px;
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+h4 {
+    font-weight: bold;
 }
 
 .row {
@@ -77,4 +82,23 @@ h3 {
 
 img {
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 90px 0;
+    }
+    .hero h1 {
+        font-size: 72px;
+    }
+    .project-image {
+        display: none;
+    }
+    .project-description {
+        text-align: center;
+    }
+    .project-btn {
+        display: block;
+    }
+
 }
