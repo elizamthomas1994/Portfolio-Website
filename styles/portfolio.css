@@ -2,6 +2,7 @@
     --background-color: #312C7D;
     --button-color: #6C63FF;
     --font-family: 'Blinker', sans-serif;
+    --color: white;
 }
 
 .hero {
@@ -11,7 +12,7 @@
 }
 
 .hero p, h1, h2 {
-    color: white;
+    color: var(--color);
     font-family: var(--font-family);
 }
 
@@ -37,10 +38,43 @@
 }
 .btn-link {
     border-radius: 4px;
-    color: white;
+    color: var(--color);
     background-color: var(--button-color);
     font-size: 18px;
     padding: 15px 30px;
     text-decoration: none;
     margin: 20px;
+}
+
+body {
+    background-color: #2E3035;
+}
+
+h3, h4, .description {
+    color: var(--color);
+}
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.project-btn {
+    border-radius: 4px;
+    color: var(--color);
+    background-color: var(--button-color);
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 5px;
 }
