@@ -81,16 +81,18 @@ p {
 }
 @media (max-width: 768px) {
     h3 {
+        font-size: 32px;
         margin-left: 5px;
     }
     p {
+        font-size: 18px;
         margin-left: 5px;
     }
     .header {
         padding: 90px 0;
     }
     .header h1 {
-        font-size: 72px;
+        font-size: 56px;
     }
     .contact {
         padding: 50px 0;
