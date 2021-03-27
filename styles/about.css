@@ -9,6 +9,73 @@ body {
     background-color: #2E3035;
 }
 
-h1, h3, p {
-    color: white;
+h1, h3, h4, p {
+    color: var(--color);
+    font-family: var(--font-family);
+}
+
+.header {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 160px 0;
+}
+h1 {
+    font-size: 96px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 50px;
+}
+.background a {
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold;
+}
+.btn-link {
+    border-radius: 4px;
+    color: var(--color);
+    background-color: var(--button-color);
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 20px;
+}
+.home-link {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 80px 0;
+}
+.contact h1 {
+    font-size: 72px;
+}
+.contact h4 {
+    font-size: 38px;
+}
+.email-link {
+    font-size: 28px;
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold;
+}
+.social-media-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.social-media-links a {
+    font-size: 50px;
+    color: skyblue;
 }
