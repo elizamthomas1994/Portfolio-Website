@@ -79,3 +79,38 @@ p {
     font-size: 50px;
     color: skyblue;
 }
+@media (max-width: 768px) {
+    h3 {
+        margin-left: 5px;
+    }
+    p {
+        margin-left: 5px;
+    }
+    .header {
+        padding: 90px 0;
+    }
+    .header h1 {
+        font-size: 72px;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .contact h1 {
+        font-size: 42px;
+    }
+    .contact h4 {
+        font-size: 24px;
+    }
+    .email-link {
+        font-size: 18px;
+    }
+    .social-media-links a {
+        font-size: 24px;
+    }
+    .btn-link {
+        font-size: 16px;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin: 20px;
+    }
+}
