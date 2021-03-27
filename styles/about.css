@@ -1,0 +1,14 @@
+:root {
+    --background-color: #312C7D;
+    --button-color: #6C63FF;
+    --font-family: 'Blinker', sans-serif;
+    --color: white;
+}
+
+body {
+    background-color: #2E3035;
+}
+
+h1, h3, p {
+    color: white;
+}
