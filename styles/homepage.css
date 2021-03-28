@@ -107,5 +107,7 @@ img {
     .project-btn {
         display: block;
     }
-
+    .portfolio h3 {
+        font-size: 32px;
+    }
 }

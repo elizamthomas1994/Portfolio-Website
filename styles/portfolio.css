@@ -63,6 +63,9 @@ h3 {
     text-align: center;
     opacity: 0.4;
 }
+.row {
+    margin-bottom: 40px;
+}
 .page-links {
     display: flex;
     justify-content: center;
@@ -76,4 +79,35 @@ h3 {
     padding: 15px 30px;
     text-decoration: none;
     margin: 20px;
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 90px 0;
+    }
+    .header h1 {
+        font-size: 56px;
+    }
+    .contents {
+        text-align: left;
+    }
+    .contents h4 {
+        margin-left: 33px;
+    }
+    .project-image {
+        display: none;
+    }
+    .project-description {
+        text-align: center;
+    }
+    .project-btn {
+        display: block;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .btn-link {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 10px;
+    }
 }
