@@ -16,21 +16,23 @@
         crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Project Portfolio</h1>
+    <div class="header">
+        <h1>Project Portfolio</h1>
+    </div>
     <div class="contents">
         <h4>Contents:</h4>
         <ul>
-            <li>Basic Landing Page</li>
-            <li>Weather App</li>
-            <li>React Weather App</li>
-            <li>Multi-Page Website</li>
-            <li>Multi-Page Responsive Website</li>
+            <li> <a href=#landing-page>Basic Landing Page</a></li>
+            <li> <a href=#weather-app>Vanilla Weather App</a></li>
+            <li> <a href=#react-weather-app>React Weather App</a></li>
+            <li> <a href=#multi-page-site>Multi-Page Website</a></li>
+            <li> <a href=#responsive-website>Responsive Website</a></li>
         </ul>
     </div>
     <div class="container">
         <div class="row">
             <div class="col project-description">
-                <h4>Basic Landing Page</h4>
+                <h4 id="landing-page">Basic Landing Page</h4>
                 <p class="description">My first project was a basic landing page about my favourite instrument, the guitar.
                     This page was created for me to test HTML5, CSS3 and ES6 JavaScript implementation and featured facts
                     about the guitar, a Spotify app embedding to allow users to listen to popular guitar tracks, and an
@@ -49,7 +51,7 @@
                 <img src="Images/Vanilla-Weather-App.png" class="img-fluid" alt="Weather App">
             </div>
             <div class="col project-description">
-                <h4>Weather App</h4>
+                <h4 id="weather-app">Vanilla Weather App</h4>
                 <p class="description">For my next project I built a weather app which features implementation of the
                     OpenWeather API to pull up live data for
                     input locations into the search bar. I also implemented a feature which allows users to pull up live
@@ -64,7 +66,7 @@
         </div>
         <div class="row">
             <div class="col project-description">
-                <h4>React Weather App</h4>
+                <h4 id="react-weather-app">React Weather App</h4>
                 <p class="description">After finishing my previous weather app in vanilla JavaScript, I re-did the project
                     using the React JavaScript framework.
                     This allowed me to implement React components and states to build the app, and also allowed me to use
@@ -86,11 +88,11 @@
                 <img src="Images/Croissant-Project.png" class="img-fluid" alt="Multi-Page Website about croissants">
             </div>
             <div class="col project-description">
-                <h4>Multi-Page Website</h4>
+                <h4 id="multi-page-site">Multi-Page Website</h4>
                 <p class="description">Up until this point I had been making single-page projects and websites, so for this project
                 I created a basic multi-page site about croissants, which utilised multiple HTML5 files, CSS3 files, Bootstrap elements, as
                 well as CSS utility classes. Although this was a very basic website, many of the skills used during this particular project would
-                go on to lay the foundations for this very portfolio website you're on currently.
+                go on to lay the foundations for this portfolio website you're on currently.
                 </p>
                 <a href="https://elegant-beaver-edba56.netlify.app/index.html" target="_blank" class="btn project-btn">Check it
                     out here!</a>
@@ -98,7 +100,7 @@
         </div>
         <div class="row">
             <div class="col project-description">
-                <h4>Multi-Page Responsive Website</h4>
+                <h4 id="responsive-website">Responsive Website</h4>
                 <p class="description">
                     This was the first project where my primary goal was to make the website responsive, which means that it is functional
                     and easy to navigate for both desktop and mobile devices. So for example, if you view this site on a mobile device, the images
@@ -114,7 +116,9 @@
         </div>
     </div>
     <h3>Stay tuned as this page will be updated as more projects are developed...</h3>
-    <a href="about.html#contact">Contact Me</a>
-    <a href="index.html">Back home</a>
+    <div class="page-links">
+        <a href="about.html#contact" class="btn btn-link">Contact Me</a>
+        <a href="index.html" class="btn btn-link">Back Home</a>
+    </div>
 </body>
 </html>

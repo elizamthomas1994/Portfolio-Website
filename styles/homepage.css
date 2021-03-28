@@ -83,7 +83,14 @@ h4 {
 img {
     border-radius: 5px;
 }
-
+.portfolio h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.portfolio-link {
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 768px) {
     .hero {
         padding: 90px 0;
