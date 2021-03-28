@@ -57,19 +57,14 @@ img {
     padding: 15px 30px;
     text-decoration: none;
 }
-h3 {
+.row {
+    margin-bottom: 40px;
+}
+.updates h3 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     opacity: 0.4;
-}
-.row {
-    margin-bottom: 40px;
-}
-.page-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
 }
 .btn-link {
     border-radius: 4px;
@@ -79,6 +74,19 @@ h3 {
     padding: 15px 30px;
     text-decoration: none;
     margin: 20px;
+}
+.footer {
+    background-color: var(--background-color);
+    padding: 70px 0;
+    text-align: center;
+}
+.footer h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.github-link {
+    font-size: 50px;
 }
 @media (max-width: 768px) {
     .header {
@@ -109,5 +117,14 @@ h3 {
         font-size: 16px;
         padding: 10px 20px;
         margin: 10px;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+    .footer h3 {
+        font-size: 32px;
+    }
+    .github-link {
+        font-size: 38px;
     }
 }

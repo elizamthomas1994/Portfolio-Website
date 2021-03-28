@@ -83,11 +83,16 @@ h4 {
 img {
     border-radius: 5px;
 }
-.portfolio h3 {
+.footer {
+    background-color: var(--background-color);
+    padding: 70px 0;
+}
+.footer h3 {
     margin-top: 15px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
-.portfolio-link {
+.portfolio-link, .contact-link {
     display: flex;
     justify-content: center;
 }
@@ -108,6 +113,12 @@ img {
         display: block;
     }
     .portfolio h3 {
+        font-size: 32px;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+    .footer h3 {
         font-size: 32px;
     }
 }
