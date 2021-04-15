@@ -1,118 +1,130 @@
 :root {
-    --background-color: #312C7D;
-    --button-color: #6C63FF;
-    --font-family: 'Blinker', sans-serif;
-    --color: white;
+  --background-color: #312c7d;
+  --button-color: #6c63ff;
+  --font-family: "Blinker", sans-serif;
+  --color: white;
 }
 
 body {
-    background-color: #2E3035;
+  background-color: #2e3035;
 }
 
-h1, h3, h4, p {
-    color: var(--color);
-    font-family: var(--font-family);
+h1,
+h3,
+h4,
+p {
+  color: var(--color);
+  font-family: var(--font-family);
 }
 
 .header {
-    background-color: var(--background-color);
-    text-align: center;
-    padding: 160px 0;
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 160px 0;
 }
 h1 {
-    font-size: 96px;
-    text-decoration: underline;
+  font-size: 96px;
+  text-decoration: underline;
 }
 
 h3 {
-    font-size: 36px;
-    margin-top: 50px;
-    margin-left: 50px;
-    text-decoration: underline;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-decoration: underline;
 }
 
 p {
-    font-size: 20px;
-    margin-left: 50px;
+  font-size: 20px;
+  margin-left: 50px;
 }
 .background a {
-    text-decoration: none;
-    color: skyblue;
-    font-weight: bold;
+  text-decoration: none;
+  color: skyblue;
+  font-weight: bold;
+}
+.background a:hover {
+  color: violet;
 }
 .btn-link {
-    border-radius: 4px;
-    color: var(--color);
-    background-color: var(--button-color);
-    font-size: 18px;
-    padding: 15px 30px;
-    text-decoration: none;
-    margin: 20px;
+  border-radius: 4px;
+  color: var(--color);
+  background-color: var(--button-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 20px;
 }
 .home-link {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .contact {
-    background-color: var(--background-color);
-    text-align: center;
-    padding: 80px 0;
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 80px 0;
 }
 .contact h1 {
-    font-size: 72px;
+  font-size: 72px;
 }
 .contact h4 {
-    font-size: 38px;
+  font-size: 38px;
 }
 .email-link {
-    font-size: 28px;
-    text-decoration: none;
-    color: skyblue;
-    font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+  color: skyblue;
+  font-weight: bold;
 }
 .social-media-links {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.email-link:hover {
+  color: violet;
 }
 .social-media-links a {
-    font-size: 50px;
-    color: skyblue;
+  font-size: 50px;
+  color: skyblue;
+}
+.social-media-links a:hover {
+  color: violet;
 }
 @media (max-width: 768px) {
-    h3 {
-        font-size: 32px;
-        margin-left: 5px;
-    }
-    p {
-        font-size: 18px;
-        margin-left: 5px;
-    }
-    .header {
-        padding: 90px 0;
-    }
-    .header h1 {
-        font-size: 56px;
-    }
-    .contact {
-        padding: 50px 0;
-    }
-    .contact h1 {
-        font-size: 42px;
-    }
-    .contact h4 {
-        font-size: 24px;
-    }
-    .email-link {
-        font-size: 18px;
-    }
-    .social-media-links a {
-        font-size: 24px;
-    }
-    .btn-link {
-        font-size: 16px;
-        padding: 10px 20px;
-        text-decoration: none;
-        margin: 20px;
-    }
+  h3 {
+    font-size: 32px;
+    margin-left: 5px;
+  }
+  p {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .header {
+    padding: 90px 0;
+  }
+  .header h1 {
+    font-size: 56px;
+  }
+  .contact {
+    padding: 50px 0;
+  }
+  .contact h1 {
+    font-size: 42px;
+  }
+  .contact h4 {
+    font-size: 24px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+  .social-media-links a {
+    font-size: 24px;
+  }
+  .btn-link {
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+  }
 }

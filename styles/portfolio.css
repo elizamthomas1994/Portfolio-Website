@@ -1,141 +1,156 @@
 :root {
-    --background-color: #312C7D;
-    --button-color: #6C63FF;
-    --font-family: 'Blinker', sans-serif;
-    --color: white;
+  --background-color: #312c7d;
+  --button-color: #6c63ff;
+  --font-family: "Blinker", sans-serif;
+  --color: white;
 }
 
 body {
-    background-color: #2E3035;
+  background-color: #2e3035;
 }
 
-h1, h3, h4, p {
-    color: var(--color);
-    font-family: var(--font-family);
+h1,
+h3,
+h4,
+p {
+  color: var(--color);
+  font-family: var(--font-family);
 }
 .header {
-    background-color: var(--background-color);
-    text-align: center;
-    padding: 160px 0;
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 160px 0;
 }
 h1 {
-    font-size: 96px;
-    text-decoration: underline;
+  font-size: 96px;
+  text-decoration: underline;
 }
 .contents {
-    text-align: center;
-    margin: 30px 10px 40px 10px;
-    border: skyblue 5px;
+  text-align: center;
+  margin: 30px 10px 40px 10px;
+  border: skyblue 5px;
 }
-.contents h4, li, a {
-    color: skyblue;
-    font-family: var(--font-family);
+.contents h4,
+li,
+a {
+  color: skyblue;
+  font-family: var(--font-family);
 }
 .contents h4 {
-    font-size: 26px;
+  font-size: 26px;
 }
 .contents ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 .contents li {
-    font-size: 20px;
+  font-size: 20px;
 }
 .contents a {
-    text-decoration: none;
+  text-decoration: none;
 }
 h4 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 .project-btn {
-    border-radius: 4px;
-    color: var(--color);
-    background-color: var(--button-color);
-    font-size: 18px;
-    padding: 15px 30px;
-    text-decoration: none;
+  border-radius: 4px;
+  color: var(--color);
+  background-color: var(--button-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
 .row {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .updates h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    opacity: 0.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  opacity: 0.4;
 }
 .btn-link {
-    border-radius: 4px;
-    color: var(--color);
-    background-color: var(--button-color);
-    font-size: 18px;
-    padding: 15px 30px;
-    text-decoration: none;
-    margin: 20px;
+  border-radius: 4px;
+  color: var(--color);
+  background-color: var(--button-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 20px;
+}
+.description a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.description a:hover {
+  color: violet;
 }
 .footer {
-    background-color: var(--background-color);
-    padding: 50px 0;
-    text-align: center;
+  background-color: var(--background-color);
+  padding: 50px 0;
+  text-align: center;
 }
 .footer h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 50px;
 }
 .github-link {
-    font-size: 50px;
+  font-size: 50px;
 }
 .open-source p {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size: 24px;
-    opacity: 0.4
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  opacity: 0.4;
 }
 .open-source a {
-    text-decoration: none;
-    color: skyblue;
-    font-weight: bold;
+  text-decoration: none;
+  color: skyblue;
+  font-weight: bold;
+}
+.open-source a:hover {
+  color: violet;
 }
 @media (max-width: 768px) {
-    .header {
-        padding: 90px 0;
-    }
-    .header h1 {
-        font-size: 56px;
-    }
-    .contents {
-        text-align: left;
-    }
-    .contents h4 {
-        margin-left: 33px;
-    }
-    .project-image {
-        display: none;
-    }
-    .project-description {
-        text-align: center;
-    }
-    .project-btn {
-        display: block;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    .btn-link {
-        font-size: 16px;
-        padding: 10px 20px;
-        margin: 10px;
-    }
-    .footer {
-        padding: 50px 0;
-    }
-    .footer h3 {
-        font-size: 32px;
-    }
-    .github-link {
-        font-size: 38px;
-    }
+  .header {
+    padding: 90px 0;
+  }
+  .header h1 {
+    font-size: 56px;
+  }
+  .contents {
+    text-align: left;
+  }
+  .contents h4 {
+    margin-left: 33px;
+  }
+  .project-image {
+    display: none;
+  }
+  .project-description {
+    text-align: center;
+  }
+  .project-btn {
+    display: block;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .btn-link {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  .footer {
+    padding: 50px 0;
+  }
+  .footer h3 {
+    font-size: 32px;
+  }
+  .github-link {
+    font-size: 38px;
+  }
 }
